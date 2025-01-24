@@ -1,0 +1,82 @@
+@font-face {
+    font-family: myFont;
+    src: url("../font/IMFellEnglish-Regular.ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: myFont;
+}
+body{
+    color: #ECDFCC;
+    background-color: #1E201E;
+}
+
+h1{ font-size: 40px; }
+h2{ font-size: 35px; }
+h3{ font-size: 30px; }
+
+hr{
+    width: 80%;
+    margin: 15px 0;
+    border: 2px solid #697565;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.navLogo{
+    margin: 5px;
+    padding: 0 10px;
+    color: #1E201E;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navBtn{
+    margin: 5px;
+    padding: 0 10px;
+    color: #1E201E;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navBtn:hover{
+    color: #ECDFCC;
+}   
+.navBtn:active{
+    color: #3C3D37;
+}
+
+.btn{
+    margin: 15px;
+    padding: 5px 15px;
+    color: #697565;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: 2px solid #697565;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #ECDFCC;
+    border-color: #ECDFCC;
+}   
+.btn:active{
+    color: #3C3D37;
+    border-color: #3C3D37;
+}
+
+/* 
+1E201E black
+3C3D37 gray
+697565 green
+ECDFCC white
+*/
