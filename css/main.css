@@ -184,9 +184,11 @@ main{
 #contact textarea:focus{
     border: 2px solid #3C3D37;
 }
-#contact a{
+#contact button{
     margin: 10px;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background: none;
 }
 
 /* FOOTER */
