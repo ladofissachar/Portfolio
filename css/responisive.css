@@ -1,0 +1,70 @@
+@media (max-width: 800px) {
+    main{
+        width: 100%;
+    }
+
+    
+    
+
+    #skill {
+        width: 100%;
+        margin: 0;
+        padding: 50px 5px !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #skill article{
+        margin-bottom: 50px;
+    }
+
+    #contact {
+        width: 100%;
+        margin: 0;
+        padding: 50px 5px !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #contact article{
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    main{
+        width: 100%;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    
+
+    hgroup{
+        width: 100% !important;
+        /* margin-top: ; */
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    #about {
+        width: 100%;
+        margin: 0;
+        padding: 50px 5px !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #about article{
+        width: 100%;
+    }
+    #about article a{
+        line-height: 50px !important;
+    }
+
+    #project {
+        width: 100%;
+        margin: 0;
+        padding: 50px 5px !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
